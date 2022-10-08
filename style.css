@@ -35,19 +35,19 @@
 	list-style: none;
 	justify-content: space-between;
 	font-size: 1.3rem;
-	font-weight: 500;
-	color: rgb(55, 119, 214);
-	padding: 2px;
+	align-items: center;
 }
 
-ul > li {
+ul > a {
 	padding: 0 1vw;
+	text-decoration: none;
+	font-weight: 500;
+	color: rgb(55, 119, 214);
 }
 
 .enroll-now-btn {
 	height: 7vh;
 	margin-top: 2vh;
-	font-size: 1.2rem;
 	background-color: rgb(10, 173, 173);
 	padding: 1vh 2vw;
 	border: 0;
@@ -55,11 +55,17 @@ ul > li {
 	margin-left: 1.4vw;
 }
 
+.enroll-now-btn > a {
+	font-size: 1.2rem;
+	color: black;
+	text-decoration: none;
+}
 
 
 /* Welcome Section CSS */
 
-.welcome-section-div-container{
+.welcome-section-div-container {
+	padding-top: 2.5rem;
 	overflow: hidden;
 	width: 98vw;
 }
@@ -137,6 +143,7 @@ ul > li {
 
 .offer-section-div{
 	/* border: 1px solid red; */
+	padding-top: 5rem;
 	align-items: center;
 	text-align: center;
 }
@@ -170,6 +177,7 @@ ul > li {
 	color: rgb(66, 63, 141);
 	font-family: 'DynaPuff', cursive;
 	font-weight: 700;
+	text-align: center;
 }
 
 .offer-para{
@@ -191,13 +199,16 @@ ul > li {
 	font-family: 'DynaPuff', cursive;
 }
 
-
+.offer-imgs {
+	text-align: center;
+}
 
 
 /* Teacher Section */
 
 .teacher-section-holder-div{
 	/* border: 1px solid red; */
+	padding: 5rem 0rem;
 	text-align: center;
 	width: 98vw;
 }
